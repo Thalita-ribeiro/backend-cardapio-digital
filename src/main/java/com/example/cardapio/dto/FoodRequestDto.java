@@ -1,2 +1,4 @@
-package com.example.cardapio.controller;public record FoodRequestDto() {
+package com.example.cardapio.dto;
+
+public record FoodRequestDto(String title, String image, Integer price) {
 }
